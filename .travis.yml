@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1" ### AWS region of your choice
+  region: "us-east-1" ### AWS region of your choice.
   app: "sample-docker-react" ### Your EB App name
   env: "Sampledockerreact-env" ### Your EB App environment name
   bucket_name: "elasticbeanstalk-us-east-1-654459718657" ### S3 bucket name
